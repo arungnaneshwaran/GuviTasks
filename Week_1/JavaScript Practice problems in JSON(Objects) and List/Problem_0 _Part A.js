@@ -36,16 +36,21 @@ let catFriendsname=[]
 for (key in cat.catFriends){
     catFriendsname = catFriendsname.concat(cat.catFriends[key].name);}
 
-console.log(catActivities);
+console.log(catFriendsname);
 
 //5.Print the total weight of catFriends
 let catFriendsweight=0
 for (key in cat.catFriends){
-    catFriendsweight += cat.catFriends[key].weight);}
+    catFriendsweight += cat.catFriends[key].weight;}
 
 console.log(catFriendsweight);
 
 //6.Print the total activities of all cats (op:6)
+var NumofActivities = cat.activities.length
+for (key in cat.catFriends){
+    NumofActivities+=cat.catFriends[key].activities.length;
+}
+console.log(NumofActivities)
 
 
 //7.Add 2 more activities to bar & foo cats
