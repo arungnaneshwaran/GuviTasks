@@ -12,7 +12,7 @@ request.send();
 request.onload = function(){
     var data = JSON.parse(this.response)
     var lenarr=Object.keys(data).length
-    for(var i=0;i<lenarr;i++){
-        console.log(data[i].name + " : "+data[i].flag+"\n")
+    for(var key in data){
+        console.log(data[key].name + " : "+data[key].flag+"\n")
     }
 }
