@@ -25,3 +25,8 @@ var cat = {
 //6.Print the total activities of all cats (op:6)
 //7.Add 2 more activities to bar & foo cats
 //8.Update the fur color of bar
+
+cat.height = 5;
+cat.weight = 10;
+cat.name = "Fluffyy";
+console.log(cat.catFriends.activities)
