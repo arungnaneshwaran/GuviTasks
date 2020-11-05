@@ -54,8 +54,10 @@ console.log(NumofActivities)
 
 
 //7.Add 2 more activities to bar & foo cats
-
+cat.catFriends[0].activities.push("jump","drink");
+cat.catFriends[1].activities.push("catch","drink");
 
 //8.Update the fur color of bar
+cat.catFriends[0].furcolor="black";
 
 
