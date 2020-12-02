@@ -1,0 +1,26 @@
+#border_line{
+    border-bottom: 2px solid;
+    border-color: darkgray;
+    border-bottom-style: groove;
+    background-color: yellow;
+    text-align: center;
+    padding-top: 50px;
+    
+
+}
+
+#svgimg{
+    display: block;
+	position: absolute;
+	top: 1px;
+	left: 3px;
+	height: 120px;
+	width: 115px;
+	stroke: #facd48;
+	stroke-width: 4px;
+	stroke-dasharray: 1 12;
+	stroke-dashoffset: 8;
+	stroke-linecap: round;
+	fill: none;
+    
+}
